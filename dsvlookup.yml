@@ -10,5 +10,5 @@
         ) }}
   tasks:
     - debug: msg='DSV tenant is {{ DSV_TENANT }}'
-    - debug: msg='aws_keyid: {{ secret["data"]["aws_keyid"] }}'
-    - debug: msg='aws_secret_access_key: {{ secret["data"]["aws_secret_access_key"] }}'
+    - debug: msg='aws_keyid is {{ secret["data"]["aws_keyid"] }}'
+    - debug: msg='aws_secret_access_key is {{ secret["data"]["aws_secret_access_key"] }}'
