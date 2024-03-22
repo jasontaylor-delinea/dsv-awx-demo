@@ -3,7 +3,7 @@
       secret: >-
         {{ lookup(
             'delinea.core.dsv',
-            'ansible-secrets:first',
+            'ansible-secrets:dsv-awx-demo',
             tenant=DSV_TENANT,
             client_id=DSV_CLIENT_ID,
             client_secret=DSV_CLIENT_SECRET,
